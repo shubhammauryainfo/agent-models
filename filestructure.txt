@@ -1,3 +1,4 @@
+|-- .env
 |-- .gitignore
 |-- bun.lock
 |-- eslint.config.js
@@ -10,8 +11,13 @@
     |-- App.tsx
     |-- assets
         |-- react.svg
+    |-- components
+        |-- Title.tsx
     |-- index.css
     |-- main.tsx
+    |-- pages
+        |-- Home.tsx
+        |-- NotFound.tsx
     |-- vite-env.d.ts
 |-- tsconfig.app.json
 |-- tsconfig.json
