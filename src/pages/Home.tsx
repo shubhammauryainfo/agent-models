@@ -10,12 +10,15 @@ const Home = () => {
           This is your starting point. Build something amazing!
         </p>
         <div className="flex justify-center gap-4">
-          <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:from-blue-600 hover:to-purple-600 transition-all duration-300">
+          <a
+          href="/3d"
+           className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:from-blue-600 hover:to-purple-600 transition-all duration-300">
             Get Started
-          </button>
-          <button className="bg-white border-2 border-blue-200 text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-all duration-300">
+          </a>
+       
+          <a className="bg-white border-2 border-blue-200 text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-all duration-300">
             Learn More
-          </button>
+          </a>
         </div>
       </div>
       <div className="mt-12 flex space-x-2">
